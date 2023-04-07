@@ -57,5 +57,10 @@ This will retrieve the price data, calculate the daily returns, and execute the 
 <img src="https://i.imgur.com/vYbhF22.png" alt="BTC-ETH Prices">
 
 <img src="https://i.imgur.com/iwpZiKw.png" alt="Portfolio Positions">
+## License
+This project is licensed under the terms of the MIT license. See the <a href="LICENSE" target="_new">LICENSE</a> file for details.
 ## Conclusion
 This project demonstrates how to develop a statistical arbitrage strategy for cryptocurrencies using Python. By combining mean-reversion trading and portfolio optimization, we were able to generate alpha and minimize risk. This project can be extended by adding more cryptocurrencies to the portfolio or by using more sophisticated trading strategies.
+
+
+***
