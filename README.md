@@ -1,6 +1,5 @@
 ## Project Overview
-The goal of this project is to develop a statistical arbitrage strategy for cryptocurrencies using Python. We will use mean-reversion trading and portfolio optimization to generate alpha and minimize risk.
-
+This project is focused on developing a statistical arbitrage strategy for cryptocurrencies using Python. The main objective of this project is to use mean-reversion trading and portfolio optimization to generate alpha and minimize risk in cryptocurrency trading. The project retrieves historical price data for Bitcoin (BTC) and Ethereum (ETH) from the CoinGecko API, and uses the pandas library to manipulate the data. The trading strategy is implemented in Python and involves executing trades based on the calculated daily returns. The portfolio optimization functions are used to minimize risk and maximize returns. The results of the trading strategy are plotted and saved in the results directory. The project can be easily extended by adding more cryptocurrencies to the portfolio or by using more sophisticated trading strategies.
 ## Data
 We will use historical price data for Bitcoin (BTC) and Ethereum (ETH) obtained from the <a href="https://www.coingecko.com/api/documentations/v3" target="_new">CoinGecko API</a>. We will use the `requests` library to make API requests and the `pandas` library to manipulate the data.
 
