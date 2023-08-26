@@ -10,8 +10,7 @@ def mean_reversion(df, window):
 def momentum(df, window):
     """Calculate the momentum signal for a given window."""
     returns = df.pct_change()
-    mom = returns.rolling(window).sum()
-    return mom
+    return returns.rolling(window).sum()
 
 def combine_signals(signals):
     """Combine multiple trading signals by taking their average."""
