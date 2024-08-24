@@ -24,7 +24,7 @@ pip install requests pandas numpy matplotlib scipy datetime json
 ## Usage
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/statistical-arbitrage-cryptocurrencies.git
+git clone https://github.com/notabombe/statistical-arbitrage-cryptocurrencies.git
 
 ```
 1. Navigate to the project directory:
