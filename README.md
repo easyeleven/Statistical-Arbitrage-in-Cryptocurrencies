@@ -1,26 +1,21 @@
 ## Project Overview
-This project is focused on developing a statistical arbitrage strategy for cryptocurrencies using Python. The main objective of this project is to use mean-reversion trading and portfolio optimization to generate alpha and minimize risk in cryptocurrency trading. The project retrieves historical price data for Bitcoin (BTC) and Ethereum (ETH) from the CoinGecko API, and uses the pandas library to manipulate the data. The trading strategy is implemented in Python and involves executing trades based on the calculated daily returns. The portfolio optimization functions are used to minimize risk and maximize returns. The results of the trading strategy are plotted and saved in the results directory. The project can be easily extended by adding more cryptocurrencies to the portfolio or by using more sophisticated trading strategies.
+This project aims to develop a statistical arbitrage strategy for cryptocurrencies using Python. The primary goal is to leverage mean-reversion trading and portfolio optimization techniques to generate alpha and minimize risk in cryptocurrency trading. The project involves:
+
+- Retrieving Historical Price Data: Collecting data for Bitcoin (BTC) and Ethereum (ETH) from the <a href="https://www.coingecko.com/api/documentations/v3" target="_new">CoinGecko API</a>.
+- Data Manipulation: Using the pandas library to process and analyze the data.
+- Trading Strategy Implementation: Executing trades based on calculated daily returns.
+- Portfolio Optimization: Employing functions to balance risk and return.
+- Results Visualization: Plotting and saving the outcomes in the `results` directory.
+- The project can be expanded by incorporating additional cryptocurrencies or adopting more advanced trading strategies.
+
+The project can be expanded by incorporating additional cryptocurrencies or adopting more advanced trading strategies.
+
 ## Data
 We will use historical price data for Bitcoin (BTC) and Ethereum (ETH) obtained from the <a href="https://www.coingecko.com/api/documentations/v3" target="_new">CoinGecko API</a>. We will use the `requests` library to make API requests and the `pandas` library to manipulate the data.
 
 ## Requirements
-This project requires Python 3.7 or later, as well as the following Python packages:
+This project requires Python 3.7 or later.
 
-- `requests`
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `scipy`
-- `datetime`
-- `json`
-
-
-To install these packages, run the following command:
-
-```
-pip install requests pandas numpy matplotlib scipy datetime json
-
-```
 ## Usage
 
 1. Clone the repository:
