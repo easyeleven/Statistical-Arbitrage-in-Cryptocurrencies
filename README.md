@@ -23,22 +23,32 @@ pip install requests pandas numpy matplotlib scipy datetime json
 
 ```
 ## Usage
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/statistical-arbitrage-cryptocurrencies.git
 
 ```
-1. Navigate to the project directory:
+2. Navigate to the project directory:
+
 ```bash
 cd statistical-arbitrage-cryptocurrencies
 
 ```
-1. Open the `config.py` file and enter your CoinGecko API key:
+3. Install Dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+4. Open the `config.py` file and enter your CoinGecko API key:
+   
 ```makefile
 COINGECKO_API_KEY = "your-api-key"
 
 ```
-1. Run the `main.py` file:
+5. Run the `main.py` file:
+   
 ```css
 python main.py
 
